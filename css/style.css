@@ -1,0 +1,116 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../IMG/Background.png);
+  background-size: cover;
+  background-position: right top;
+  background-color: rgba(0, 0, 0, 0.39);
+  background-blend-mode: darken;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  height: 70px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+}
+
+  header {
+
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+
+}
+
+.Logo {
+
+    width: 170px;
+    height: 46px;
+
+}
+
+.menu ul{
+
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+
+.menu ul a{
+
+    color: #EEE;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    transition: .8s;
+}
+.menu ul a:hover{
+
+    color: #E00;
+
+}
+  main {
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #EEE;
+    padding: 0px 80px;
+}
+
+main h2 {
+
+    font-size: 2.25rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+main h1 {
+
+    font-size: 4.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+main p {
+
+    width: 800px;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    margin: 13px;
+
+}
+
+main a {
+
+    display: flex;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgba(209, 41, 29);
+    color: rgba(235, 31, 16);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    transition: all 0.7s;
+    margin-top: 40px;
+}
+
+main a:hover{
+
+    border: 1px solid white;
+    background-color: #000;
+    color: #EEE;
+
+
+}
