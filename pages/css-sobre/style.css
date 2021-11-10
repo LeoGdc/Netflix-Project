@@ -1,11 +1,11 @@
 body {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../img-sobre/backgroundSobre.jpg);
-    background-size: cover;
-    background-position: right top;
-    background-color: #0008;
-    background-blend-mode: darken;
-    display: flex;
-    flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img-sobre/163682-Johnny_Bravo-red_background-minimalism.jpg);
+  background-size: cover;
+  background-position: right top;
+  background-color: #0008;
+  background-blend-mode: darken;
+  display: flex;
+  flex-direction: column;
 }
